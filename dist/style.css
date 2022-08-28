@@ -215,18 +215,18 @@ body > .container-fluid {
   margin-bottom: 1.875em;
   padding-top: 5%; }
 
-#contact {
-  background-color: #07374a; }
-  #contact h2 {
-    color: #25b79f; }
+  #contact {
+    background-color: #25b79f; }
+    #contact h2 {
+      padding-bottom: 1.25em; }
 
-.contact-social-icons p {
-  color: #25b79f; }
-.contact-social-icons ul a {
-  color: #25b79f;
-  list-style: none; }
-  .contact-social-icons ul a:hover {
-    color: #f0f0e6; }
+      .contact-social-icons p {
+        color: #FFFFFF; }
+      .contact-social-icons ul a {
+        color: #FFFFFF;
+        list-style: none; }
+        .contact-social-icons ul a:hover {
+          color: #FFFFFF; }
   .contact-social-icons ul a li {
     display: inline-block;
     padding: 2%; }
@@ -236,7 +236,7 @@ body > .container-fluid {
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 30px;
-  background-color: #07374a;
+  background-color: #25b79f;
   color: #f0f0e6; }
 
 #scrollIcon, #scrollTopIcon {
