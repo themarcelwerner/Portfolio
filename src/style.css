@@ -92,6 +92,14 @@ p {
   font-family: "Quattrocento", sans-serif;
   color: #f0f0e6; }
 
+.three
+  {
+    font-family: "Quattrocento", sans-serif;
+    text-align: justify;
+    text-justify: inter-word;
+    color: #f0f0e6;
+  }
+
 body > .container-fluid {
   padding: 60px 15px 0; }
 
