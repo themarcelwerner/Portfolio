@@ -1,5 +1,38 @@
-
 @import url("https://fonts.googleapis.com/css?family=Comfortaa:400,700,300|Quattrocento");
+
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+.four {
+  border-right: solid 3px rgba(0,255,0,.75);
+  white-space: nowrap;
+  overflow: hidden;    
+  font-size: 28px;
+  font-family: "Quattrocento", sans-serif;
+  color: #f0f0e6; 
+  margin: 0 auto;
+}
+
+/* Animation */
+.four {
+  animation: animated-text 2s steps(29,end) 1s 1 normal both,
+             animated-cursor 600ms steps(29,end) infinite;
+}
+
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 260px;}
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+
 .about-tools ul li, .contact-social-icons ul a li {
   text-align: center; }
 
@@ -54,13 +87,6 @@ h4,
 h5 {
   font-family: "Comfortaa", Helvetica, Arial, sans-serif;
   color: #07374a; }
-
-div {
-    font-family: "Quattrocento", sans-serif;
-    text-align: justify;
-    text-justify: inter-word;
-    color: #f0f0e6;
-  }
 
 p {
   font-family: "Quattrocento", sans-serif;
@@ -222,18 +248,18 @@ body > .container-fluid {
   margin-bottom: 1.875em;
   padding-top: 5%; }
 
-  #contact {
-    background-color: #25b79f; }
-    #contact h2 {
-      padding-bottom: 1.25em; }
+#contact {
+  background-color: #25b79f; }
+  #portfolio h2 {
+    padding-bottom: 1.25em; }
 
-      .contact-social-icons p {
-        color: #FFFFFF; }
-      .contact-social-icons ul a {
-        color: #FFFFFF;
-        list-style: none; }
-        .contact-social-icons ul a:hover {
-          color: #FFFFFF; }
+.contact-social-icons p {
+  color: #25b79f; }
+.contact-social-icons ul a {
+  color: #25b79f;
+  list-style: none; }
+  .contact-social-icons ul a:hover {
+    color: #25b79f; }
   .contact-social-icons ul a li {
     display: inline-block;
     padding: 2%; }
@@ -264,3 +290,4 @@ body > .container-fluid {
   display: none; }
   .back-to-top.visible {
     display: block; }
+
