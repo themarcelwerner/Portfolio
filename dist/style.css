@@ -192,6 +192,7 @@ body > .container-fluid {
   #about h2 {
     color: #25b79f; }
 
+
 .profile-img {
   margin-bottom: 15px;
   width: 120px; }
@@ -257,11 +258,7 @@ body > .container-fluid {
   padding-top: 5%; }
 
 #contact {
-  background-image: url('https://www.tz.de/bilder/2020/06/15/13801212/1717068546-muenchen-skyline-2rZNQU9OvHea.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;  
-  background-size: cover;
-  /* background-color: #25b79f; */ }
+  background-color: #25b79f; }
   #portfolio h2 {
     padding-bottom: 1.25em; }
 
